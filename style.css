@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.watch {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(1px);
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, #f0f0f0 0%, #ccc 100%);
+}
+
+.hand {
+  position: absolute;
+  transform-origin: 50% 100%;
+  transition: transform 0.5s cubic-bezier(0.4, 2.2, 0.2, 1);
+}
+
+.hour-hand {
+  width: 4px;
+  height: 60px;
+  background-color: #333;
+  top: 50%;
+  left: 50%;
+  margin-top: -60px;
+  margin-left: -2px;
+}
+
+.minute-hand {
+  width: 3px;
+  height: 80px;
+  background-color: #666;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -1.5px;
+}
+
+.second-hand {
+  width: 1px;
+  height: 90px;
+  background-color: #f00;
+  top: 50%;
+  left: 50%;
+  margin-top: -90px;
+  margin-left: -0.5px;
+}
+
+.glass {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.numbers {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.number:nth-child(1) { transform: rotate(30deg) translateY(-90px); }
+.number:nth-child(2) { transform: rotate(60deg) translateY(-90px); }
+.number:nth-child(3) { transform: rotate(90deg) translateY(-90px); }
+.number:nth-child(4) { transform: rotate(120deg) translateY(-90px); }
+.number:nth-child(5) { transform: rotate(150deg) translateY(-90px); }
+.number:nth-child(6) { transform: rotate(180deg) translateY(-90px); }
+.number:nth-child(7) { transform: rotate(210deg) translateY(-90px); }
+.number:nth-child(8) { transform: rotate(240deg) translateY(-90px); }
+.number:nth-child(9) { transform: rotate(270deg) translateY(-90px); }
+.number:nth-child(10) { transform: rotate(300deg) translateY(-90px); }
+.number:nth-child(11) { transform: rotate(330deg) translateY(-90px); }
+.number:nth-child(12) { transform: rotate(0deg) translateY(-90px); }
