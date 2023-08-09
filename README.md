@@ -32,9 +32,9 @@ Contributions are welcome! Feel free to submit pull requests, report issues, or 
 
 ## Language Distribution
 
-- HTML: 30%
-- CSS: 25%
-- JavaScript: 45%
+- HTML: 61.4%
+- CSS: 13.5%
+- JavaScript: 25.1%
 
 ---
 
