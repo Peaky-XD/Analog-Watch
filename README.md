@@ -2,7 +2,7 @@
 
 Welcome to the Analog Watch Design repository! This project features a simple and elegant analog watch created using HTML, CSS, and JavaScript.
 
-![Analog Watch Preview](preview.png)
+![Analog Watch Preview](Screenshot_20230809-142643.jpg)
 
 ## Features
 
