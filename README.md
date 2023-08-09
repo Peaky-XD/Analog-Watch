@@ -22,9 +22,22 @@ Contributions are welcome! Feel free to submit pull requests, report issues, or 
 
 ## Badges
 
-![Total Views](https://img.shields.io/badge/dynamic/json?color=blue&label=Total%20Views&query=%24.views&url=https%3A%2F%2Fapi.example.com%2Fviews)
-![Total Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=Total%20Downloads&query=%24.downloads&url=https%3A%2F%2Fapi.example.com%2Fdownloads)
+![Languages](https://img.shields.io/github/languages/count/Peaky-XD/Analog-Watch)
+![HTML](https://img.shields.io/github/languages/top/Peaky-XD/Analog-Watch?color=%23E34F26&logo=html5)
+![CSS](https://img.shields.io/github/languages/top/Peaky-XD/Analog-Watch?color=%231572B6&logo=css3)
+![JavaScript](https://img.shields.io/github/languages/top/Peaky-XD/Analog-Watch?color=%23F7DF1E&logo=javascript)
 ![Stars](https://img.shields.io/github/stars/Peaky-XD/Analog-Watch.svg?style=social&label=Stars)
+
+---
+
+## Language Distribution
+
+- HTML: 30%
+- CSS: 25%
+- JavaScript: 45%
+
+---
+
 
 ## License
 
